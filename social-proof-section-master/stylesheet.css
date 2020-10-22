@@ -1,0 +1,216 @@
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 8vw;
+  text-align: center;
+  width: 70vw;
+}
+
+h3 {
+  color: white;
+  font-size: 3.5vw;
+  margin-bottom: 1vw;
+}
+
+h4 {
+  font-size: 3.5vw;
+  font-weight: 400;
+  margin-top: 0.5vw;
+  color: hsl(333, 80%, 67%);
+}
+
+h5 {
+  color: white;
+  font-size: 3.4vw;
+  font-weight: 400;
+  line-height: 6vw;
+  margin: 0;
+  width: 70vw;
+}
+
+p {
+  font-size: 3.8vw;
+  color: hsl(303, 10%, 53%);
+  line-height: 6.5vw;
+  margin-top: 0;
+  margin-bottom: 12vw;
+  text-align: center;
+  width: 87vw;
+}
+
+#header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#reviews {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20vw;
+  width: 87vw;
+}
+
+#top-flex-container {
+  margin-top: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-text {
+  display: inline-block;
+}
+
+.photo {
+  border-radius: 20vw;
+  margin-right: 5vw;
+  width: 13vw;
+}
+
+.photo-container {
+  display: inline-block;
+}
+
+.rating {
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 3vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vw;
+  padding: 4vw 0 4vw 0;
+  width: 87vw;
+}
+
+.rating-text {
+  color: hsl(300, 43%, 22%);
+  font-size: 3.8vw;
+}
+
+.review {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 3vw;
+  margin-top: 5vw;
+  padding: 10vw;
+}
+
+.stars {
+  margin-bottom: 3vw;
+}
+
+.star-image {
+  width: 5vw;
+}
+
+@media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 3.5vw;
+    margin-bottom: 1vw;
+    text-align: left;
+    width: 30vw;
+  }
+
+  h3 {
+    font-size: .8vw;
+    margin-bottom: 0;
+  }
+  
+  h4 {
+    font-size: .8vw;
+    margin-top: 0.5vw;
+  }
+
+  h5 {
+    font-size: .85vw;
+    line-height: 1.5vw;
+    margin: 0;
+    width: 19vw;
+  }
+
+  p {
+    font-size: 1.0vw;
+    line-height: 2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    width: 30vw;
+  }
+
+  #header-text {
+    margin: 0;
+    width: 34vw;
+  }
+
+  #rating2 {
+    left: 8.5vw;
+  }
+
+  #rating3 {
+    left: 11.5vw;
+  }
+
+  #review2 {
+    position: relative;
+    top: 1vw;    
+  }
+
+  #review3 {
+    position: relative;
+    top: 2vw;   
+  }
+
+  #reviews {
+    display: flex;
+    margin-bottom: 10vw;
+    margin-left: 10vw;
+    width: 87vw;
+  }
+
+  .photo {
+    margin-right: 1vw;
+    width: 3vw;
+  }
+
+  .rating {
+    border-radius: 0.6vw;
+    flex-direction: row;
+    margin-bottom: 1.25vw;
+    margin-left: 2vw;
+    padding: 0.9vw 0 0.9vw 0;
+    position: relative;
+    bottom: 0;
+    left: 5vw;
+    width: 31vw;
+  }
+
+  .review {
+    border-radius: .6vw;
+    margin-top: 1vw;
+    margin-right: 2vw;
+    padding: 2.5vw;
+    width: 19vw;
+  }
+
+  .rating-text {
+    font-size: 0.9vw;
+  }
+
+  .star-image {
+    width: 1.2vw;
+  }
+
+  .stars {
+    margin-bottom: 0vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  #top-flex-container {
+    flex-direction: row;
+    margin: 6vw 8vw 4vw 8vw;
+  }
+}
